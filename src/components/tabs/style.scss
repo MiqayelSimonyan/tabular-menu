@@ -1,0 +1,15 @@
+@import '../../assets/styles/variables/colors.scss';
+
+.tabs {
+    padding: 50px 0;
+    .nav-pills {
+        margin-bottom: 30px;
+        .nav-item {
+            padding-left: 0;
+            background-color: $grey4;
+            span {
+                cursor: pointer;
+            }
+        }
+    }
+}
